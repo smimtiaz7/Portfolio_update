@@ -1,9 +1,11 @@
-import Header from "./components/home/Header";
+import About from "./components/about/About";
+import Navbar from "./components/navbar/Navbar";
 
 const Home = () => {
   return (
     <div className="app">
-      <Header />
+      <Navbar />
+      <About />
     </div>
   );
 };
