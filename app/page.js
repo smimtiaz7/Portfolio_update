@@ -6,11 +6,13 @@ import Skills from "./components/skills/Skills";
 import Certifications from "./components/certification/Certifications";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import HomePage from "./components/home/Home";
 
 const Home = () => {
   return (
     <div className="app">
       <Navbar />
+      <HomePage />
       <About />
       <Portfolio />
       <Skills />
