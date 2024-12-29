@@ -5,6 +5,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Skills from "./components/skills/Skills";
 import Certifications from "./components/certification/Certifications";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Experience />
       <Certifications />
       <Contact />
+      <Footer />
     </div>
   );
 };
