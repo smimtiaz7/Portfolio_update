@@ -21,9 +21,14 @@
 }
 
 section {
-  margin: 5rem;
+  padding: 5rem;
   line-height: 1.7;
   color: var(--color-white);
+  transition: all 0.5s ease;
+
+  &:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  }
 }
 
 section > h5 {
@@ -201,7 +206,7 @@ section > h1 {
 
 @media screen and (max-width: 900px) {
   section {
-    margin: 4rem;
+    padding: 4rem;
   }
   .about__me {
     width: 240px;
@@ -241,7 +246,7 @@ section > h1 {
   }
 
   section {
-    margin: 3rem;
+    padding: 3rem;
   }
 
   .about__container {
@@ -254,6 +259,6 @@ section > h1 {
 }
 @media screen and (max-width: 380px) {
   section {
-    margin: 2rem;
+    padding: 2rem;
   }
 }

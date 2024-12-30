@@ -2,6 +2,11 @@
   flex: 1;
   width: 100%;
   flex-direction: column;
+  transition: all 0.5s ease;
+
+  &:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  }
 }
 .app__skill-container {
   display: flex;
@@ -16,58 +21,20 @@
   }
 }
 
-.skills__progress {
-  background-color: #d8d8d8;
-  border-radius: 20px;
-  position: relative;
-  height: 20px;
+.progress-bar-container {
   width: 15vw;
-  margin: 50px 0;
+}
 
-  .skills__progress-done {
-    border-radius: 20px;
-    color: black;
-    font-size: 0.8em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 0;
-    opacity: 0;
-    transition: 1s ease 0.3s;
-  }
-
-  @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
+  .progress-bar-container {
     width: 250px;
   }
-  @media screen and (max-width: 830px) {
-    width: 220px;
-  }
 }
 
-.bg1 {
-  background: linear-gradient(to left, #f2709c, #ff9472);
-}
-.bg2 {
-  background: linear-gradient(to left, #22c1c3, #fdbb2d);
-}
-.bg3 {
-  background: linear-gradient(to left, #eeaeca, #94bbe9);
-}
-.bg4 {
-  background: linear-gradient(to left, #dafddf, #d1e2ff);
-}
-.bg5 {
-  background: linear-gradient(to left, #5b64da, #f2ddff);
-}
-.bg6 {
-  background: linear-gradient(to left, #ddd6f3, #faaca8);
-}
-.bg7 {
-  background: linear-gradient(to left, #4ca1af, #c4e0e5);
-}
-.bg8 {
-  background: linear-gradient(to left, #ff9966, #ff5e62);
+@media screen and (max-width: 830px) {
+  .progress-bar-container {
+    width: 220px;
+  }
 }
 
 .skills__progress-component {
