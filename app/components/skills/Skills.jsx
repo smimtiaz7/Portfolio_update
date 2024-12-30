@@ -117,7 +117,7 @@ const Skills = () => {
           <LoadingProgressBar
             bgColor="linear-gradient(to right, #c2e59c, #64b3f4)"
             name="Tailwind"
-            limit="60"
+            limit="65"
           />
         </div>
       </div>
